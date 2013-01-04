@@ -1,0 +1,264 @@
+body
+{
+    background-image: url('background.png') !important;
+    background-size: 2000px;
+    background-color: #000;
+}
+
+/*----------- Text! ---------------------------------------------*/
+p
+{
+    font-family: Verdana;
+}
+.double-image
+#l_lownav a
+{
+
+}
+a.mainnav1:hover:before
+{
+    content: url('/styles/default/home1.png');
+}
+a.mainnav2:hover:before
+{
+    content: url('/styles/default/user1.png');
+}
+a.mainnav3:hover:before
+{
+    content: url('/styles/default/pets1.png');
+}
+a.mainnav4:hover:before
+{
+    content: url('/styles/default/world1.png');
+}
+a.mainnav5:hover:before
+{
+    content: url('/styles/default/community1.png');
+}
+a.mainnav6:hover:before
+{
+    content: url('/styles/default/info1.png');
+}
+
+a
+{
+    color: #000;
+    font-family: georgia;
+}
+a:hover
+{
+}
+
+/*----------- Page Element Styles -------------------------------------*/
+hr
+{
+    color: #000;
+    background-color: #000;
+}
+
+hr.light
+{
+    border: 0;
+    color: #acacac;
+    background-color: #acacac;
+    height: 5px;
+}
+
+table.boardtable
+{
+    border-color: #000;
+}
+td.title
+{
+    border-color: #000;
+}
+td.poster
+{
+    border-color: #000;
+}
+
+table.threadtable
+{
+    border-color: #000;
+}
+td.topic
+{
+    border-color: #000;
+}
+td.author
+{
+	
+}
+td.response
+{
+    border-color: #000;
+}
+
+table.posttable
+{
+}
+td.postauthorright
+{
+    border-color: #000;
+}
+td.postauthorleft
+{
+    border-color: #000;
+}
+td.postcontent
+{
+
+}
+
+textarea
+{
+
+}
+/*----------- Page Layout Divs ----------------------------------*/
+#newscontainer
+{
+    background-color: #600808;
+    color: #fff;
+    border-color: #600808;
+}
+#avatarcontainer
+{
+    border-color: #000;
+}
+#biocontainer, #linkcontainer
+{
+    background-color: #540000;
+    border-color: #000;
+}
+#linkcontainer
+{
+
+}
+
+#catcontainer
+{
+    background-color: #a70000;
+}
+#boardcontainer
+{
+
+}
+#threadcontainer
+{
+	
+}
+
+#initialpost, #oddpost, #evenpost
+{
+    border-color: #000;
+}
+#initialpost
+{
+    background-color: #a70000;
+}
+#oddpost
+{
+    background-color: #4c4c4c;
+}
+#evenpost
+{
+    background-color: #383838;
+}
+
+#convocontainer
+{
+    background-color: #430000;
+    border-color: #000;
+}
+
+#generalcontainer
+{
+    background-color: #a70000;
+    border-color: #000;
+}
+#generalcontainerleft
+{
+    background-color: #a70000;
+    border-color: #000;
+}
+#petcontainer
+{
+    background-color: #74c944;
+    border-color: #446622;
+}
+#petnamecontainer
+{
+    border-color: #000;
+}
+#petidcontainer
+{
+
+}
+#petcontentcontainer
+{
+
+}
+
+#petbox
+{
+    border-color: #000;
+}
+#itembox
+{
+    border-color: #000;
+}
+
+/*----------- Main Layout Divs ----------------------------------*/
+#buffer
+{
+
+}
+
+#l_container
+{
+    background-color: #430000;
+    border-color: #000;
+}
+
+#l_userinfo1
+{
+    background-color: #a70000;
+    border-color: #000;
+}
+#l_topcontent
+{
+    background-color: #2a2a2a;
+    border-color: #000;
+}
+#l_midnav
+{
+    background-color: #161616;
+    border-color: #000;
+    color: #fff;
+}
+#l_lownav
+{
+}
+#l_userinfo2
+{
+    background-color: #161616;
+    border-color: #000;
+    color: #fff;
+}
+
+#l_pic
+{
+    background-image: url("circle.png");
+}
+
+#l_maincontent
+{
+    background-color: #2a2a2a;
+    border-color: #000;
+    color: #fff;
+}
+
+#l_footer
+{
+
+}

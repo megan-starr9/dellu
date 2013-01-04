@@ -1,0 +1,342 @@
+/* Default Style! */
+/*
+ Color Guide!
+ Light Green (content background): #669944
+ Dark Green (Forum Header/Borders): #446622
+ Blue (main layout hue): #549984
+ Light Blue (Occasional inner content): #54a994
+ 
+*/
+
+
+body
+{
+    background-image: url('background.png') !important;
+    background-size: 2000px;
+    background-color: #549984;
+}
+
+/*----------- Text! ---------------------------------------------*/
+p
+{
+    font-family: Calibri;
+}
+p.topbars
+{
+	
+}
+p.welcome
+{
+	
+}
+#catcontainer p
+{
+    
+}
+h1, h2, h3, h4
+{
+    font-family: Calibri;
+}
+h1.pagetitle
+{
+    border-color: #000;
+}
+h2.minortitle
+{
+    border-color: #000;
+}
+.double-image
+#l_lownav a
+{
+
+}
+a.mainnav1:hover:before
+{
+    content: url('/styles/default/home1.png');
+}
+a.mainnav2:hover:before
+{
+    content: url('/styles/default/user1.png');
+}
+a.mainnav3:hover:before
+{
+    content: url('/styles/default/pets1.png');
+}
+a.mainnav4:hover:before
+{
+    content: url('/styles/default/world1.png');
+}
+a.mainnav5:hover:before
+{
+    content: url('/styles/default/community1.png');
+}
+a.mainnav6:hover:before
+{
+    content: url('/styles/default/info1.png');
+}
+
+a
+{
+    color: #000;
+    font-family: georgia;
+}
+a:hover
+{
+    
+}
+
+a.mainlink
+{
+
+}
+
+/*----------- Page Element Styles -------------------------------------*/
+hr
+{
+    color: #446622;
+    background-color: #446622;
+}
+
+hr.light
+{
+    color: #669944;
+    background-color: #669944;
+}
+
+table.boardtable
+{
+    border-color: #446622;
+}
+td.title
+{
+    border-color: #446622;
+}
+td.poster
+{
+    border-color:#446622;
+}
+
+table.threadtable
+{
+    border-color:#446622;
+}
+td.topic
+{
+    border-color: #446622;
+}
+td.author
+{
+
+}
+td.response
+{
+    border-color: #446622;
+}
+
+table.posttable
+{
+
+}
+td.postauthorright
+{
+    border-color: #446622;
+}
+td.postauthorleft
+{
+    border-color: #446622;    
+}
+td.postcontent
+{
+
+}
+td.postdate
+{
+    border-color: #446622;
+}
+td.pmlist
+{
+    border-color: #446622;
+}
+
+textarea
+{
+
+}
+
+input.link
+{
+    border-color: #446622;
+}
+input.link:hover
+{
+    background-color: #779955;
+}
+li
+{
+
+}
+/*----------- Page Layout Divs ----------------------------------*/
+#newscontainer
+{
+    background-color: #54a994;
+    border-color: #446622;
+}
+
+#iconcontainer
+{
+    border-color: #446622;
+}
+#infocontainer
+{
+
+}
+#avatarcontainer
+{
+    border-color: #446622;
+}
+#biocontainer
+{
+    background-color: #54a994;
+    border-color: #446622;
+}
+#linkcontainer
+{
+    background-color: #54a994;
+    border-color: #446622;
+}
+
+#catcontainer
+{
+    background-color: #446622;
+}
+#boardcontainer
+{
+}
+#threadcontainer
+{
+
+}
+
+#initialpost, #oddpost, #evenpost
+{
+    border-color: #446622;
+}
+#initialpost
+{
+    background-color: #54a994;
+}
+#oddpost
+{
+    background-color: #74c944;
+}
+#evenpost
+{
+    background-color: #64a924;
+}
+
+#convocontainer
+{
+    background-color: #74c944;
+    border-color: #446622;
+}
+
+#generalcontainer
+{
+    background-color: #54a994;
+    border-color: #446622;
+}
+#generalcontainerleft
+{
+    background-color: #54a994;
+    border-color: #446622;
+}
+#petcontainer
+{
+    background-color: #74c944;
+    border-color: #446622;
+}
+#petnamecontainer
+{
+    border-color: #000;
+}
+#petidcontainer
+{
+
+}
+#petcontentcontainer
+{
+
+}
+
+#petbox
+{
+    border-color: #446622;
+}
+#itembox
+{
+    border-color: #446622;
+}
+
+#alert
+{
+    background-color: #00bb00;
+    border-color: #000;
+}
+#warning
+{
+    background-color: #bb0000;
+    border-color: #000;
+}
+
+/*----------- Main Layout Divs ----------------------------------*/
+#buffer
+{
+
+}
+
+#l_container
+{
+    background-color: #549984;
+    border-color: #446622;
+}
+
+#l_userinfo1
+{
+    background-color: #669944;
+    border-color: #446622;
+}
+#l_topcontent
+{
+    background-color: #669944;
+    border-color: #446622;
+}
+#l_midnav
+{
+    background-color: #549984;
+    border-color: #446622;
+}
+#l_lownav
+{
+	
+}
+#l_userinfo2
+{
+    background-color: #549984;
+    border-color: #446622;
+}
+
+#l_pic
+{
+    background-image: url("circle.png");
+}
+
+#l_maincontent
+{
+    background-color: #669944;
+    border-color: #446622;
+}
+
+#l_footer
+{
+
+}

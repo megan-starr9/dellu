@@ -1,0 +1,410 @@
+/* Default Style! */
+/*
+ Color Guide!
+ Light Green (content background): #669944
+ Dark Green (Forum Header/Borders): #446622
+ Blue (main layout hue): #549984
+ Light Blue (Occasional inner content): #54a994
+ 
+*/
+
+
+body
+{
+    background-image: url('background.png') !important;
+    background-color: #ff4900;
+    background-repeat:no-repeat;
+    background-position:center;
+}
+
+/*----------- Text! ---------------------------------------------*/
+p
+{
+    font-size: 10px;
+    font-family: Verdana;
+}
+.double-image
+#l_lownav a
+{
+    margin-right: 4px;
+}
+a.mainnav1:hover:before
+{
+    content: url('/styles/default/home1.png');
+    position: absolute;
+    margin-top: 2px;
+}
+a.mainnav2:hover:before
+{
+    content: url('/styles/default/user1.png');
+    position: absolute;
+    margin-top: 2px;
+}
+a.mainnav3:hover:before
+{
+    content: url('/styles/default/pets1.png');
+    position: absolute;
+    margin-top: 2px;
+}
+a.mainnav4:hover:before
+{
+    content: url('/styles/default/world1.png');
+    position: absolute;
+}
+a.mainnav5:hover:before
+{
+    content: url('/styles/default/community1.png');
+    position: absolute;
+}
+a.mainnav6:hover:before
+{
+    content: url('/styles/default/info1.png');
+    position: absolute;
+}
+
+a
+{
+    font-weight: bold;
+    color: #000;
+    text-decoration: none;
+    font-family: georgia;
+}
+a:hover
+{
+    text-decoration: underline;
+}
+
+/*----------- Page Element Styles -------------------------------------*/
+hr
+{
+    border: 0;
+    color: #446622;
+    background-color: #446622;
+    height: 5px;
+}
+
+hr.light
+{
+    border: 0;
+    color: #669944;
+    background-color: #669944;
+    height: 5px;
+}
+
+table.boardtable
+{
+    height: 100%;
+    border-bottom: 1px dashed #446622;
+    width: 100%;
+}
+td.title
+{
+    width: 150px;
+    border-right: 1px dashed #446622;
+}
+td.poster
+{
+    width: 200px;
+    border-left: 1px dashed #446622;
+}
+
+table.threadtable
+{
+    width: 100%;
+    height: 40px;
+    border-bottom: 1px dashed #446622;
+}
+td.topic
+{
+    border-right: 1px dashed #446622;
+}
+td.author
+{
+    width: 150px;
+}
+td.response
+{
+    width: 250px;
+    border-left: 1px dashed #446622;
+}
+
+table.posttable
+{
+    width: 100%;
+}
+td.postauthorright
+{
+    width: 180px;
+    padding-left: 10px;
+    border-left: dotted 1px #446622;
+    vertical-align: top;
+}
+td.postauthorleft
+{
+    width: 160px;
+    padding-left: 30px;
+    border-right: dotted 1px #446622;
+    vertical-align: top;
+}
+td.postcontent
+{
+    vertical-align: top;
+}
+
+textarea
+{
+    width: 400px;
+    height: 150px;
+}
+/*----------- Page Layout Divs ----------------------------------*/
+#newscontainer
+{
+    background-color: #54a994;
+    width: 600px;
+    height: 400px;
+    margin: auto;
+    text-align: center;
+    border: 2px solid #446622;
+    overflow-y: scroll;
+}
+
+#avatarcontainer
+{
+    width: 400px;
+    height: 400px;
+    border:  2px solid #446622;
+    float: left;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+#biocontainer, #linkcontainer
+{
+    background-color: #54a994;
+    border: 2px solid #446622;
+    width: 350px;
+    float: left;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+#linkcontainer
+{
+    text-align: center;
+}
+
+#catcontainer
+{
+    background-color: #446622;
+    text-align: center;
+}
+#boardcontainer
+{
+    height: 50px;
+}
+#threadcontainer
+{
+    width: 100%;
+    height: 40px;
+}
+
+#initialpost, #oddpost, #evenpost
+{
+    width: 750px;
+    margin: auto;
+    margin-bottom: 2px !important;
+    border: 2px solid #446622;
+}
+#initialpost
+{
+    background-color: #54a994;
+}
+#oddpost
+{
+    background-color: #74c944;
+}
+#evenpost
+{
+    background-color: #64a924;
+}
+
+#convocontainer
+{
+    width: 700px;
+    height: 400px;
+    overflow-y: scroll;
+    background-color: #74c944;
+    margin: auto;
+    text-align: center;
+    border: 2px solid #446622;
+    margin-top: 30px !important;
+    margin-bottom: 30px !important;
+}
+
+#generalcontainer
+{
+    float: left;
+    margin-left: 12%;
+    background-color: #54a994;
+    width: 600px;
+    text-align: center;
+    border: 2px solid #446622;
+    margin-bottom: 10px !important;
+}
+#generalcontainerleft
+{
+    background-color: #54a994;
+    width: 600px;
+    margin: auto;
+    border: 2px solid #446622;
+    margin-bottom: 10px !important;
+}
+#petcontainer
+{
+    float: left;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    background-color: #74c944;
+    width: 500px;
+    border: 2px solid #446622;
+}
+#petnamecontainer
+{
+    float: left;
+    margin-left: 40px;
+    width: 250px;
+    height: 50px;
+    border-bottom: 1px solid #000;
+    text-align: left;
+}
+#petidcontainer
+{
+    float: left;
+    margin-left: -25px;
+    margin-top: 35px;
+    opacity: .6;
+}
+#petcontentcontainer
+{
+    float: left;
+    clear: both;
+    margin-left: 45px;
+    width: 400px;
+    margin-bottom: 5px;
+}
+
+#petbox
+{
+    float: left;
+    width: 150px;
+    margin-left: 60px;
+    border: 1px solid #446622;
+    text-align: center;
+    margin-bottom: 20px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+#itembox
+{
+    float: left;
+    width: 150px;
+    margin-left: 30px;
+    border: 1px solid #446622;
+    text-align: center;
+    margin-bottom: 20px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+/*----------- Main Layout Divs ----------------------------------*/
+
+#l_container
+{
+    background-color: #549984;
+    border: 2px solid #446622;
+    
+    width: 900px;
+    float: left;
+    margin-left: 260px;
+    padding-bottom: 10px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+}
+
+#l_userinfo1
+{
+    background-color: #669944;
+    border: 2px solid #446622;
+    
+    width: 500px;
+    float: left;
+    margin-left: 30%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+#l_topcontent
+{
+    background-color: #669944;
+    border: 2px solid #446622;
+    
+    width: 800px;
+    height: 160px;
+    float: left;
+    margin-left: 50px;
+}
+#l_midnav
+{
+    background-color: #549984;
+    border: 2px solid #446622;
+    
+    width: 600px;
+    float: right;
+    margin-top: -5px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+#l_lownav
+{
+    float: right;
+    width: 600px;
+    margin-right: -20px;
+}
+#l_userinfo2
+{
+    background-color: #549984;
+    border: 2px solid #446622;
+    
+    text-align: center;
+    
+    width: 500px;
+    float: right;
+    margin-right: 10px;
+    margin-top: 2px;
+}
+
+#l_pic
+{
+    background-image: url("circle.png");
+    
+    width: 160px;
+    height: 160px;
+    float: left;
+    margin-left: 40px;
+    margin-top: -165px;
+}
+
+#l_maincontent
+{
+    background-color: #669944;
+    border: 2px solid #446622;
+    
+    width: 800px;
+    float: left;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+#l_footer
+{
+    float: left;
+    margin-left: 70%;
+    opacity: .5;
+}

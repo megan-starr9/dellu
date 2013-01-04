@@ -1,0 +1,322 @@
+/* Default Style! */
+/*
+ Color Guide!
+ Light Green (content background): #669944
+ Dark Green (Forum Header/Borders): #446622
+ Blue (main layout hue): #549984
+ Light Blue (Occasional inner content): #54a994
+
+*/
+
+html{
+    background: url('background.png');
+    background-color: #fdf1ff;
+    color: #3b1244;
+    background-position:right bottom;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+}
+
+
+body
+{
+    background-image: url('cherry.png') !important;
+    background-position:left center;
+}
+
+/*----------- Text! ---------------------------------------------*/
+p
+{
+    font-family: Verdana;
+}
+
+
+.double-image
+#l_lownav a
+{
+
+}
+a.mainnav1:hover:before
+{
+    content: url('/styles/default/home1.png');
+}
+a.mainnav2:hover:before
+{
+    content: url('/styles/default/user1.png');
+}
+a.mainnav3:hover:before
+{
+    content: url('/styles/default/pets1.png');
+}
+a.mainnav4:hover:before
+{
+    content: url('/styles/default/world1.png');
+}
+a.mainnav5:hover:before
+{
+    content: url('/styles/default/community1.png');
+}
+a.mainnav6:hover:before
+{
+    content: url('/styles/default/info1.png');
+}
+
+a
+{
+    color: #5e226b;
+    font-family: georgia;
+}
+a:hover
+{
+
+}
+
+/*----------- Page Element Styles -------------------------------------*/
+/*email spacer*/
+hr
+{
+    color: #A7008D;
+    background-color: #A7008D;
+}
+
+/*all other spacers*/
+hr.light
+{
+    color: #d485e4;
+    background-color: #d485e4;
+}
+
+/*-------------------- Forum Borders LEAVE BLACK! ----------------------------*/
+table.boardtable
+{
+    border-color: #000000;
+}
+
+
+td.title
+{
+    border-color: #000000;
+}
+
+td.poster
+{
+    border-color: #000000;
+}
+
+table.threadtable
+{
+    border-color: #000000;
+}
+td.topic
+{
+    border-color: #000000;
+}
+td.author
+{
+}
+td.response
+{
+    border-color: #000000;
+}
+
+table.posttable
+{
+
+}
+td.postauthorright
+{
+    border-color: #000000;
+}
+td.postauthorleft
+{
+    border-color: #000000;
+}
+td.postcontent
+{
+	
+}
+td.postdate
+{
+    border-color: #000000;
+}
+td.pmlist
+{
+    border-color: #000000;
+}
+
+/*---------------------- END LEAVEING IT BLACK! -------------------------*/
+
+textarea
+{
+
+}
+/*----------- Page Layout Divs ----------------------------------*/
+#newscontainer
+{
+    background-color: #f6ceff;
+    border-color: #730086;
+}
+
+#avatarcontainer
+{
+    border-color: #730086;
+}
+#biocontainer, #linkcontainer
+{
+    background-color: #f6ceff;
+    border-color: #730086;
+}
+#linkcontainer
+{
+
+}
+
+/* FORUM TITLE */
+#catcontainer
+{
+    background-color: #e987ff;
+}
+#boardcontainer
+{
+
+}
+#threadcontainer
+{
+
+}
+
+#initialpost, #oddpost, #evenpost
+{
+    border-color: #730086;
+}
+#initialpost
+{
+    background-color: #b051b4;
+}
+#oddpost
+{
+    background-color: #e6b4ef;
+}
+#evenpost
+{
+    background-color: #cf7cd3;
+}
+
+#convocontainer
+{
+    background-color: #f6ceff;
+    border-color: #730086;
+}
+
+#generalcontainer
+{
+    background-color: #f093ff;
+    border-color: #730086;
+}
+#generalcontainerleft
+{
+    background-color: #ecb7f6;
+    border-color: #730086;
+}
+#petcontainer
+{
+    background-color: #f8d0ff;
+    border-color: #730086;
+}
+#petnamecontainer
+{
+    border-color: #000;
+}
+#petidcontainer
+{
+
+}
+#petcontentcontainer
+{
+
+}
+
+#petbox
+{
+    border-color: #730086;
+}
+#itembox
+{
+    border-color: #730086;
+}
+
+#alert
+{
+    background-color: #00bb00;
+    border-color: #000;
+}
+#warning
+{
+    background-color: #bb0000;
+    border-color: #000;
+}
+
+/*----------- Main Layout Divs ----------------------------------*/
+#buffer
+{
+
+}
+
+/*Main containter*/
+#l_container
+{
+    background-color: #c87dd4;
+    border-color: #730086;
+}
+
+/*top container*/
+#l_userinfo1
+{
+    background-color: #ee9bff;
+    border-color: #730086;
+}
+#l_topcontent
+{
+    background-color: #e8aff1;
+    border-color: #730086;
+}
+
+/*---------------Bottom Top-----------------*/
+#l_midnav
+{
+    background-color: #e97fff;
+    border-color: #730086;
+}
+#l_lownav
+{
+
+
+}
+
+/*---------------Bottom Top-----------------*/
+#l_userinfo2
+{
+    background-color: #cb5fe1;
+    border-color: #730086;
+}
+
+#l_pic
+{
+    background-image: url("circle.png");
+}
+
+#l_maincontent
+{
+    background-color: #a973b4;
+    border-color: #730086;
+}
+
+#l_footer
+{
+
+}
+
+/*---------------General Classes-----------------*/
+.fade {
+
+}
